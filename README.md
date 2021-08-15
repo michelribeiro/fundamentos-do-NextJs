@@ -51,6 +51,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 ```
-
+### What Am I use?
+- https://stripe.com/br plataform to payment.
 
 E-mail: [michel.ribeiro@michelribeiro.com.br](mailto:michel.ribeiro@michelribeiro.com.br)
