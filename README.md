@@ -15,6 +15,8 @@ yarn create next-app
 - sass
 - react-icons
 - Stripe
+- next-auth
+- faunaDB
 
 
 ### DevDependencies
@@ -51,7 +53,12 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 ```
-### What Am I use?
-- https://stripe.com/br plataform to payment.
+### Form of Payment
+[https://www.stripe.com](https://www.stripe.com)
 
+### FaunaDb
+[https://www.fauna.com](https://www.fauna.com)
+
+
+---
 E-mail: [michel.ribeiro@michelribeiro.com.br](mailto:michel.ribeiro@michelribeiro.com.br)
