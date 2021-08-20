@@ -17,6 +17,7 @@ yarn create next-app
 - Stripe
 - next-auth
 - faunaDB
+- axioss
 
 
 ### DevDependencies
@@ -59,6 +60,10 @@ export const getStaticProps: GetStaticProps = async () => {
 ### FaunaDb
 [https://www.fauna.com](https://www.fauna.com)
 
+### Places to use private things
+- getServerSideProps (SSR) Server side rendering
+- getStaticPropos (SSG) static site generation
+- ApiRoutes
 
 ---
 E-mail: [michel.ribeiro@michelribeiro.com.br](mailto:michel.ribeiro@michelribeiro.com.br)

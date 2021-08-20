@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import { SubscribeButton } from "components/SubscribeButton";
 import style from "./home.module.scss";
-import { stripe } from "services/strapi";
+import { stripe } from "services/stripe";
 
 interface HomeProps {
   product: {

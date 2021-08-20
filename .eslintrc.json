@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@typescript/no-anonymous-default-export": "off",
+    "import/no-anonymous-default-export": [2, {"allowArrowFunction": true}]
+  }
 }
